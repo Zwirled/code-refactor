@@ -1,4 +1,4 @@
-# week-01-challenge-01
+# Code Refactor
 
 ## Description
 
@@ -9,11 +9,13 @@ Fixing the semantic HTML of Horiseon Marketing Agency's website by adding correc
 
 N/A
 
+View the web application at: https://zwirled.github.io/code-refactor/
+
 ## Usage
 
 ![screenshot of Horiseon's website](assets/images/screenshot.png)
 
-To use this study guide, refer to each h2 section title and within contains notes on each language. Can be used with the DevTools console, where we can see the JavaScript running. It will list the topics we learned from prework and choose one topic for us to study first.
+To use this one page website, please use the navigation within the header to scroll to relevant sections.
 
 ## Credits
 
@@ -25,7 +27,7 @@ Collaborators include:
 
 MIT License
 
-Copyright (c) [2022] [Amelia Bramwell]
+Copyright (c) [2023] [Amelia Bramwell]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,4 +1,5 @@
 /*GLOBAL*/
+/* selects all elements - e.g. main, section, footer etc.*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,6 +19,18 @@ p {
     font-size: 16px;
 }
 
+/* targets the images in the article to align to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* targets the images in the article to align to right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /*HEADER*/
 header {
     padding: 20px;
@@ -35,6 +48,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* targets the navigation within the header*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,31 +57,38 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+/* targets the navigations unorganised list*/
+header .menu {
     list-style-type: none;
 }
 
-header nav ul li {
+header .menu li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /*ARTICLE*/
+/* targets the figure */
 .hero {
-    height: 800px;
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* targets the article */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* targets all sections within the article */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -77,26 +98,17 @@ header nav ul li {
     color: #ffffff;
 }
 
+.content img {
+    max-height: 200px;
+}
+
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.content img {
-    max-height: 200px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /*ASIDE*/
+/* targets the aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,6 +120,7 @@ header nav ul li {
     background-color: #2589bd;
 }
 
+/* targets each section within the aside*/
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
